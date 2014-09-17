@@ -1,0 +1,26 @@
+<template name="menu">
+
+    <div class="row">
+        <div class="col-md-12 blueheader"><img src="graphics/SVNQuizLogo192.png" class="img-responsive pull-right" alt="Responsive image">
+
+        </div>
+    </div>
+    <div class="row">
+
+        <!--login er rettet i login_buttons_dropdown.html-->
+        <div class="col-xs12 col-md-6">{{> loginButtons }}</div>
+        <div class="col-xs12 col-md-6"><a href="{{pathFor 'inviteplayer'}}" class="btn btn-oldstyle btn-block" role="button"><H2>INVITE PLAYER</H2></a></div>
+
+    </div>
+    <div class="row">
+        <div class="col-xs12 col-md-6"><a href="{{pathFor 'halloffame'}}" class="btn btn-oldstyle btn-block" role="button">  <H2>HALL OF FAME</H2></a></div>
+        <div class="col-xs12 col-md-6"><a href="{{pathFor 'mystatus'}}" class="btn btn-oldstyle btn-block" role="button"> <H2>MY STATUS</H2></a></div>
+
+    </div>
+    <div class="row">
+        <div class="col-xs12 col-md-6"><a href="{{pathFor 'mygames'}}" class="btn btn-oldstyle btn-block" role="button"> <H2>MY GAMES</H2></a></div>
+        <div class="col-xs12 col-md-6"><a href="{{pathFor 'instructions'}}" class="btn btn-oldstyle btn-block" role="button"><H2>INSTRUCTIONS</H2></a></div>
+
+
+    </div>
+</template>

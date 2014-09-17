@@ -1,0 +1,61 @@
+<Template name="question">
+
+
+    {{#if showModal}}
+    <!-- this is the backdrop fully shown from the beginning-->
+
+    <div class="modal-backdrop fade in">
+        <!-- css ".show" class == modal fully shown -->
+        <div class="modal show">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row-fluid"> {{> feedback}}</div>
+                    <div class="row">
+                        <form class="form-horizontal">
+
+
+                            <h4>
+                                {{question}}
+                            </h4>
+
+                            <form>
+                                <div>
+                                    <input type="radio" id="radio1" class="css-checkbox" name="answers"
+                                           value="{{answer_0}}"/>
+                                    <label for="radio1" class="css-label radGroup1">{{answer_0}}</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" id="radio2" class="css-checkbox" name="answers"
+                                           value="{{answer_1}}"/>
+                                    <label for="radio2" class="css-label radGroup1"> {{answer_1}}</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio3" class="css-checkbox" name="answers"
+                                           value="{{answer_2}}"/>
+                                    <label for="radio3" class="css-label radGroup1">{{answer_2}}</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio4" class="css-checkbox" name="answers"
+                                           value="{{answer_3}}"/>
+                                    <label for="radio4" class="css-label radGroup1">{{answer_3}}</label>
+                                </div>
+
+
+                                <button class="btn btn-danger" id="ansver">Select</button>
+                            </form>
+
+
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+
+
+</Template>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/../app/client/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../app/packages/accounts-ui-bootstrap-3/login_buttons.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dropspot/.deploy/mup.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dropspot/client/views/admin/admin.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dropspot/client/views/admin/create_post.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dropspot/client/views/editposts/edit_post_item_modal.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dropspot/client/views/editposts/edit_post_item_modal.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/stylesheets/sites/home.import.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/views/board/board.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/views/quiz/quiz.js" charset="UTF-8" />
+  </component>
+</project>
+

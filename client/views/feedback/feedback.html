@@ -1,0 +1,18 @@
+<Template name="feedback">
+
+    {{#if showfeedbackpos}}
+    <div class="alert alert-success fade ">
+        <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
+        <h3>Yeah! that´s right the correct answer is {{thecorrect}} well done.</h3>
+    </div>
+    {{/if}}
+
+    {{#if showfeedbackneg}}
+    <div class="alert alert-error fade ">
+        <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
+        <h3> Noooh that´s wrong the correct answer is {{thecorrect}}</h3>
+
+    </div>
+    {{/if}}
+
+</Template>

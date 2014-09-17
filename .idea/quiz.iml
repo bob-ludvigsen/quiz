@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/blaze-layout/examples/simple/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/iron-dynamic-template/examples/basic/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/iron-dynamic-template/examples/javascript/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/iron-layout/examples/javascript/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/iron-layout/examples/templates/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/iron-router/examples/basic/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/iron-router/examples/hooks/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/iron-router/examples/waiton/.meteor/local" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />
+    <orderEntry type="library" name="jQuery-2.0.0" level="application" />
+    <orderEntry type="library" name="Modernizr-2.6.2" level="application" />
+  </component>
+</module>
+

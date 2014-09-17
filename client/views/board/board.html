@@ -1,0 +1,40 @@
+<Template name="board">
+
+
+
+    <div class="row">
+        <div class="col-xs-7 col-md-6 ">
+            <div class="row ">
+                <div class="enabled">
+                {{{grid}}}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-4 col-md-4 score">
+
+            <div>Score {{score.player1}}: {{score.scorep1}}<br/> Score {{score.player2}} : {{score.scorep2}}
+
+
+            </div>
+
+        </div>
+
+        <div class="col-xs-4 col-md-4 pull-left">
+
+            {{#each cats}}
+
+
+                    <a id="cat" class="btn custom disabled" href="{{category}}">{{category}}</a>
+
+
+            {{/each}}
+        </div>
+        <div class="col-xs-4 col-md-4 pull-left hide">
+
+            <P>Remember to select a field!! </P>
+
+        </div>
+
+    </div>
+</Template>
