@@ -121,8 +121,8 @@ if (Gamedata.find().count() === 0) {
 
 Meteor.startup(function () {
     // bootstrap the admin user if they exist -- You'll be replacing the id later
-    if (Meteor.users.findOne("y2cyi8o5kAZP7kgPy"))
-        Roles.addUsersToRoles("y2cyi8o5kAZP7kgPy", ['admin']);
+    if (Meteor.users.findOne("YrBYomgqmB7iymQYP"))
+        Roles.addUsersToRoles("YrBYomgqmB7iymQYP", ['admin']);
 
     // create a couple of roles if they don't already exist (THESE ARE NOT NEEDED -- just for the demo)
     if(!Meteor.roles.findOne({name: "secret"}))

@@ -3,6 +3,10 @@
  */
 Template.question.helpers({
     showModal:function(){
-        return Session.get("show-my-modal");
+        //return Session.get("show-my-modal");
+    },
+    quizInScope: function() {
+
+       // return Session.get('quizInScope');
     }
 });

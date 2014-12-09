@@ -4,15 +4,14 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-bootstrap
-jquery
 less
-less-bootstrap-3
-font-awesome-4-less
-accounts-password
-accounts-ui-bootstrap-3
-accounts-admin-ui-bootstrap-3
+
 u2622:persistent-session
 iron:router
 alanning:roles
-
+nemo64:bootstrap
+blaze
+email
+accounts-password
+softwarerero:accounts-t9n
+useraccounts:bootstrap

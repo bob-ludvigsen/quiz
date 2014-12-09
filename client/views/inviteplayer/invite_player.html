@@ -1,56 +1,103 @@
 <template name="inviteplayer">
+    <div class="fade-in one">
+        <div class="row">
+            <div class="col-md-12 blueheader">
+                <div class="row">
 
-    <div class="col-xs-12 col-md-4">
-        <h3 class="text-center">Invite a player</h3>
-        <p>Here you can invite a player to your game</p>
-        <p>Click on the name and wait for the person to accept your invitation, and play the game.</p>
-        <ul class="transparant">
-            {{#each players}}
-            {{#unless myself _id}}
-            {{> userList}}
-            {{/unless}}
-            {{/each}}
-        </ul>
+                    <img src="graphics/SVNQuizLogo192.png" class="img-responsive pull-right" alt="Responsive image">
+                </div>
+
+                <div class="col-xs-12 col-md-4 white-text">
+                    <h3 class="text-center">Invite a player</h3>
+
+                    <p>Here you can invite a player to your game</p>
+
+                    <p>Click on the name and wait for the person to accept your invitation, then play the game.</p>
+                    {{#if currentUser}}
+                        <ul class="transparant">
+                            {{#each players}}
+                                {{#unless myself _id}}
+                                    {{> userList}}
+                                {{/unless}}
+                            {{/each}}
+                        </ul>
+                    {{else}}
+                        <h3>You must be logged in to invite </h3>
+                    {{/if}}
+                </div>
+                <div class="col-xs-12 col-md-4 white-text">
+                    <h3 class="text-center">You have invited: </h3>
+
+                    <p>Wait for the person to accept your invitation, then play the game.</p>
+                    {{#if currentUser}}
+                        <ul class="transparant">
+                            {{#each invitations}}
+                                {{> invitedlist}}
+                            {{/each}}
+                        </ul>
+                    {{else}}
+                        <h3>You must be logged in to view </h3>
+                    {{/if}}
+
+
+                </div>
+
+                <div class="col-xs-12 col-md-4 white-text">
+                    <h3 class="text-center">You have been invited by:</h3>
+
+                    <p>Click on a name to accept an invitation, then play the game.</p>
+                    {{#if currentUser}}
+                        <ul class="transparant">
+
+                            {{#each invites}}
+                                {{> myinvitationslist}}
+                            {{/each}}
+
+                        </ul>
+                    {{else}}
+                        <h3>You must be logged in to accept </h3>
+                    {{/if}}
+                </div>
+
+                <br/><br/><br/><br/>
+
+                <div class="row">
+
+                    <div class="col-xs12 col-md-12 text-center"><a href="{{pathFor 'menu'}}"
+                                                                   class="btn btn-oldstyle" role="button"><H2>
+                        Return to menu</H2></a>
+                        <br/><br/>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
     </div>
-    <div class="col-xs-12 col-md-4">
-        <h3 class="text-center">You have invited: </h3>
-        <ul class="transparant">
-            {{#each invitations}}
-            {{> invitedlist}}
-            {{/each}}
-        </ul>
-
-
-    </div>
-
-    <div class="col-xs-12 col-md-4">
-        <h3 class="text-center">You have been invited by:</h3>
-        <ul class="transparant">
-            {{#each invites}}
-            {{> myinvitationslist}}
-            {{/each}}
-        </ul>
-
-    </div>
-    <div class="col-xs12 col-md-12"><a href="{{pathFor 'menu'}}" class="btn btn-oldstyle center" role="button">
-        <H2>Return to menu</H2></a></div>
-
 </template>
 
+
+
+
 <template name="userList">
-    <li><a href="#" class="pickplayer">{{emails.[0].address}}</a></li>
+    <li><a href="#" class="pickplayer white-text">{{username}}</a></li>
 </template>
 
 <template name="invitedlist">
-    <li> <span id="deleteinvitation" class="glyphicon glyphicon-trash clickable" data-toggle="tooltip" data-placement="top" title="Delete invitation"></span>
+    <!--dem jeg har inviteret-->
+    <li>
 
-        <a href="#" class="">{{player2}}</a></li>
+        <a href="#" class="deleteinvitation white-text">{{player2}}</a></li>
 
 </template>
 
 <template name="myinvitationslist">
-    <li> <span id="acceptinvitation" class="glyphicon glyphicon-ok clickable" data-toggle="tooltip" data-placement="top" title="Accept invitation"></span>
-        <span id="deleteinvitation" class="glyphicon glyphicon-trash clickable" data-toggle="tooltip" data-placement="top" title="Dismiss invitation"></span>
-        <a href="#" class="">{{player1}}</a></li>
+    <!--dem jeg er inviteret af-->
+    <li>
+        <a href="#" class="acceptinvitation white-text">{{player1}}</a></li>
 
 </template>

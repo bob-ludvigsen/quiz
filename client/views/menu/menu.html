@@ -1,5 +1,5 @@
 <template name="menu">
-
+<div class="fade-in one">
     <div class="row">
         <div class="col-md-12 blueheader"><img src="graphics/SVNQuizLogo192.png" class="img-responsive pull-right" alt="Responsive image">
 
@@ -8,7 +8,8 @@
     <div class="row">
 
         <!--login er rettet i login_buttons_dropdown.html-->
-        <div class="col-xs12 col-md-6">{{> loginButtons }}</div>
+       <!-- <div class="col-xs12 col-md-6"><a href="#" class="btn btn-oldstyle btn-block" id="login" role="button"><H2>LOGIN</H2></a></div>-->
+       <div class="col-xs12 col-md-6"><a href="{{pathFor 'login'}}" class="btn btn-oldstyle btn-block" id="login" role="button"><H2>LOGIN</H2></a></div>
         <div class="col-xs12 col-md-6"><a href="{{pathFor 'inviteplayer'}}" class="btn btn-oldstyle btn-block" role="button"><H2>INVITE PLAYER</H2></a></div>
 
     </div>
@@ -23,4 +24,5 @@
 
 
     </div>
+</div>
 </template>

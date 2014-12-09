@@ -4,21 +4,18 @@
 Template.inviteplayer.helpers({
     players: function () {
 
-        var player = Meteor.users.find({}).fetch();
-        //Meteor.user().emails[0].address
-        //console.log(player[0].emails[0].address);
+
+        var player = Meteor.users.find({}, {sort: {username: 1}}).fetch();
+
         return player;
     },
     invitations: function () {
-        //alert(Meteor.user()._id);
+
         var player = Meteor.userId();
-        //console.log(player);
-        //setInterval( function(){
-        var myinvitations = Gamedata.find({player1_id: player}).fetch();
-        //alert(myinvitations)
+
+        var myinvitations = Gamedata.find({player1_id: player, "accepted": false}).fetch();
+
         return myinvitations;
-        //}, 300 );
-        //alert(Gamedata.find({player1_id: Meteor.user()}).fetch())
 
 
     },
@@ -40,24 +37,36 @@ Template.inviteplayer.helpers({
 
 Template.inviteplayer.events({
     'click .pickplayer': function (e, template) {
-        console.log(this._id);
+        //console.log(this._id);
         e.preventDefault();
         var invitedId = this._id;
         Meteor.call('game', invitedId, function (error, id) {
             if (error)
                 return alert(error.reason);
-        })
+        }),
+            Meteor.call('mailInvitePlayer', invitedId, function (error, id) {
+                if (error)
+                    return alert(error.reason);
+            })
+
     },
-    'click #deleteinvitation': function (e, template) {
+    'click .deleteinvitation': function (e, template) {
         //alert(this._id);
         Gamedata.remove({_id: this._id});
     },
-    'click #acceptinvitation': function (e, template) {
+    'click .acceptinvitation': function (e, template) {
         //alert(this._id);
-        Gamedata.update({_id: this._id}, {
-            $set: { pending: false, accepted: true }
+        var invitedId = this._id;
 
-        });
+        Gamedata.update({_id: this._id}, {
+            $set: {pending: false, accepted: true}
+
+        })
+        Meteor.call('mailAcceptPlayer', invitedId, function (error, id) {
+            if (error)
+                return alert(error.reason);
+        })
+
     }
 });
 

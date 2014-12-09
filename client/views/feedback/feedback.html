@@ -3,16 +3,36 @@
     {{#if showfeedbackpos}}
     <div class="alert alert-success fade ">
         <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
-        <h3>Yeah! that´s right the correct answer is {{thecorrect}} well done.</h3>
+        <h3>Yeah! That's correct. The right answer is {{thecorrect}} Well done.</h3>
+        <audio autoplay>
+            <source src="1902.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
     </div>
     {{/if}}
 
     {{#if showfeedbackneg}}
     <div class="alert alert-error fade ">
         <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
-        <h3> Noooh that´s wrong the correct answer is {{thecorrect}}</h3>
+        <h3> Noooh... That's wrong! The correct answer is {{thecorrect}}</h3>
+
+        <audio autoplay>
+            <source src="3958.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
 
     </div>
+    {{/if}}
+    {{#if timeIsUp}}
+        <div class="alert alert-error fade ">
+            <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
+            <h3> Time's up!; The correct answer is:  {{thecorrect}}</h3>
+            <audio autoplay>
+                <source src="3958.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+        </div>
     {{/if}}
 
 </Template>

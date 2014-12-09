@@ -22,5 +22,9 @@ Meteor.publish('users', function(){
 });
 
 Meteor.publish("directory", function () {
-    return Meteor.users.find({}, {fields: {username :1, emails: 1, profile: 1}});
+    return Meteor.users.find({}, {fields: {username :1, emails: 1, profile: 1, svnquiz:1}});
+});
+
+Meteor.publish('filteredUsers', function(filter) {
+    return filteredUserQuery(this.userId, filter);
 });

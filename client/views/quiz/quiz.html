@@ -1,11 +1,57 @@
 <Template name="quiz">
-    <div class="quizcontainer">
 
-        {{#each quizes}}
-        {{> question}}
-        {{/each}}
+
+    <div class="row-fluid"> {{> feedback}}</div>
+
+    <div class="row fade-in one">
+        <div class="col-xs-10 col-md-10 quiz">
+            <form class="form-horizontal">
+                <h3>
+                    {{quizes.question}}
+                </h3>
+
+                <form>
+                    <div>
+                        <input type="radio" id="radio1" class="css-checkbox" name="answers"
+                               value="ansver1"/>
+                        <label for="radio1" class="css-label radGroup1">{{quizes.answer_0}}</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="radio2" class="css-checkbox" name="answers"
+                               value="ansver2"/>
+                        <label for="radio2" class="css-label radGroup1"> {{quizes.answer_1}}</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="radio3" class="css-checkbox" name="answers"
+                               value="ansver3"/>
+                        <label for="radio3" class="css-label radGroup1">{{quizes.answer_2}}</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="radio4" class="css-checkbox" name="answers"
+                               value="ansver4"/>
+                        <label for="radio4" class="css-label radGroup1">{{quizes.answer_3}}</label>
+                    </div>
+                    <br/><br/>
+
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2">
+                            <button class="timer" id="ansver">Select</button>
+                        </div>
+                        <div class="col-xs-5 col-md-3 timer ">
+                            <div>Time left: {{time}}</div>
+                        </div>
+
+
+                    </div>
+                </form>
+
+
+            </form>
+        </div>
+
+
     </div>
-
 
 
 </Template>

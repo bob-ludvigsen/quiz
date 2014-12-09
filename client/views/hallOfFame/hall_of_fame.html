@@ -1,4 +1,58 @@
 <template name="halloffame">
-    <h3 class="text-center">Welcome to hall of fame</h3>
-    <div class="col-xs12 col-md-offset-4"><a href="{{pathFor 'menu'}}" class="btn btn-oldstyle" role="button"> <H2>Return to menu</H2></a></div>
+
+    <div class="row fade-in one">
+        <div class="row">
+            <div class="col-md-12 blueheader">
+                <div class="row">
+                    <div class="col-xs-12 col-md-2 white-text">
+                        <h2>HALL OF FAME</h2>
+                    </div>
+                    <img src="graphics/SVNQuizLogo192.png" class="img-responsive pull-right" alt="Responsive image">
+
+                </div>
+
+
+                <div class="col-xs-12 col-md-12 white-text">
+
+                            <table class="tablecenter">
+                                {{#each myStats}}
+                                    <tr>
+                                        {{> halloffamelist}}
+                                    </tr>
+
+                                {{/each}}
+                            </table>
+                    <br/><br/>
+
+
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-xs12 col-md-12 text-center"><a href="{{pathFor 'menu'}}" class="btn btn-oldstyle"
+                                                                   role="button"><H2>Return to menu</H2></a>
+                        <br/><br/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
 </template>
+
+<template name="halloffamelist">
+
+    <td class="hall-of-fame-table hall-of-fame"><img src="levelON.png" class="img-responsive hall-of-fame"
+                                        alt="Responsive image">
+     {{myStatus}}</td>
+    <td class="hall-of-fame-table">{{username}}</td>
+    <td class="hall-of-fame-table">{{svnquiz}} wins</td>
+
+
+
+</template>
+

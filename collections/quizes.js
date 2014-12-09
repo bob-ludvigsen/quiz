@@ -5,17 +5,17 @@
 Quizzes = new Meteor.Collection('quizzes');
 Categories = new Meteor.Collection('categories');
 Gamedata = new Meteor.Collection('gamedata');
-
-
+Winlist = new Meteor.Collection('winlist');
+//Users = new Meteor.Collection('users');
 
 Gamedata.allow({
     insert: function(userId, file) {
-        console.log(userId);
+        //console.log('Gamedata insert ' +userId);
         //return true;
         return !! userId;
     },
     update: function(userId, file, fields, modifier) {
-        console.log(userId);
+        //console.log('Gamedata update ' + userId);
         //return true;
         return !! userId;
     },
@@ -24,3 +24,22 @@ Gamedata.allow({
         return !! userId;
     }
 });
+
+Quizzes.allow({
+    insert: function(userId, file) {
+        console.log('Quizzes insert ' +userId);
+        //return true;
+        return !! userId;
+    },
+
+    update: function(userId, file, fields, modifier) {
+        console.log('Quizzes update ' + userId);
+        //return true;
+        return !! userId;
+    },
+    remove: function(userId, file) {
+        return true;
+        return !! userId;
+    }
+});
+
