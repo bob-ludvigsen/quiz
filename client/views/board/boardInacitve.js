@@ -182,6 +182,7 @@ Template.boardInactive.helpers({
     curplayer: function(){
 
         var gameId = Session.get("playgame");
+        //alert(gameId);
         var griddata = Gamedata.findOne({_id: gameId});
         if(griddata){
         var playerTurn = griddata.turn;

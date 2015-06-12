@@ -1,0 +1,123 @@
+<template name="login">
+<div class="fade-in one">
+
+   <!-- <h3 class="text-center">Login</h3>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-5 col-md-offset-3">
+
+
+
+
+
+            </div>
+        </div>-->
+    <div class="row">
+        <div class="col-sm-12 col-md-8">
+            <div class="page-header">
+
+                {{#if currentUser}}
+                    <h1>My profile</h1>
+                    {{else}}
+                    <h1>Login or register</h1>
+                {{/if}}
+            </div>
+            {{#if currentUser}}
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <form role="form">
+                            <div class="form-group">
+                                <div class="alert alert-danger hide" id="hidethealert" role="alert">Indtast en gyldig emailadresse</div>
+                                <label for="input-username">Email</label>
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" id="input-email" value="{{email}}" placeholder="Email">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <form role="form">
+                            <div class="form-group">
+                                <div class="alert alert-danger hide" id="hidethealert" role="alert">That is not a valid username</div>
+                                <label for="input-username">Username</label>
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" id="input-username" value="{{user.username}}" placeholder="Username">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <form role="form">
+                            <div class="form-group">
+                                <div class="alert alert-danger hide" id="hidethealert" role="alert">That is not a valid Firstname</div>
+                                <label for="input-username">Firstname</label>
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" id="input-firstname" value="{{user.profile.firstname}}" placeholder="Firstname">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <form role="form">
+                            <div class="form-group">
+                                <div class="alert alert-danger hide" id="hidethealert" role="alert">That is not a valid Lastname</div>
+                                <label for="input-username">Lastname</label>
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" id="input-lastname" value="{{user.profile.lastname}}" placeholder="Lastname">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                <div class="col-sm-12 col-md-6">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="alert alert-danger hide" id="hidethealert" role="alert">That is not a valid Firstname</div>
+                            <label for="input-username">Nationality</label>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" id="input-nat" value="{{user.profile.nationality}}" placeholder="Nationality">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="alert alert-danger hide" id="hidethealert" role="alert">That is not a valid Lastname</div>
+                            <label for="input-username">Service</label>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" id="input-service" value="{{user.profile.Service}}" placeholder="Service (Army,Navy Airforce)">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+                <button type="button" data-dismiss="modal" class="btn btn-danger cancel">Cancel</button>
+
+                <button type="button" class="btn btn-success">Save</button>
+            {{/if}}
+
+            <br/><br/>
+
+        </div>
+        <div id="atFormDiv" class="col-sm-12 col-md-4 loginstyle">
+            {{> atForm state="signIn"}}
+            {{#if currentUser}}
+                <li><a href="#" id="signOut">Sign Out</a></li>
+            {{/if}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="login"><a href="{{pathFor 'menu'}}" class="btn btn-oldstyle" role="button"> <H2>Return to menu</H2></a></div>
+    </div>
+
+</div>
+</template>

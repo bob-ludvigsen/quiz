@@ -1,0 +1,52 @@
+<template name="listquestions">
+
+         <div class="row">
+             <div class="col-md-6">
+             <input type="text" class="form-control search-input-filter width-search" value="{{searchQuestionFilter}}"
+                    placeholder="Søg på kategori eller ord i spørgsmål">
+
+         </div>
+         </div>
+
+    <table class='table table-striped'>
+            <thead>
+            <tr>
+                <th>Redigering af spørgsmål</th>
+                <th>Kategori</th>
+                <th>Spørgsmål</th>
+                <th>Svar 1</th>
+                <th>Svar 2</th>
+                <th>Svar 3</th>
+                <th>Svar 4</th>
+                <th>Korrekt svar</th>
+                <th>Aktiv</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each questions}}
+                <tr class="">
+                    <td>
+
+                        <a href="#"  id="deletequestion">Slet</a><br/>
+                        <a href="{{pathFor 'editquestion'}}">Rediger</a>
+                      <!--  <a href="{{pathFor 'editquestion'}}" id="updatequestion" class="glyphicon glyphicon-pencil clickable updatequestion"></a>
+-->
+
+                    </td>
+
+                    <td>{{category}}</td>
+                    <td>{{question}}</td>
+                    <td>{{answer_0}}</td>
+                    <td>{{answer_1}}</td>
+                    <td>{{answer_2}}</td>
+                    <td>{{answer_3}}</td>
+                    <td>{{correct}}</td>
+                    <td>{{active}}</td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+
+
+
+</template>

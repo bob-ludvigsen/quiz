@@ -1,0 +1,283 @@
+<template name="editquestions">
+
+
+    <div class="header">
+        <h4>Rediger spørgsmål</h4>
+    </div>
+
+
+    <!--<div class="modal-body">-->
+
+    <div class="row">
+        <div class="col-xs-12  col-md-2">
+            <form role="form">
+                <div class="form-group">
+                    <div class="alert alert-danger hide" id="hidethealert" role="alert">Indtast en gyldig
+                        emailadresse
+                    </div>
+                    <label for="input-category">Kategori</label>
+
+                    <div class="input-group">
+                        <select class="form-control" id="input-category">
+
+                            <option value="{{quest.category}}">{{quest.category}}</option>
+                            {{# each categories}}
+                                <option value="{{quest.category}}">{{quest.category}}</option>
+
+                            {{/ each}}
+                        </select>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-xs-12  col-md-6">
+
+            <div class="text-box-logo">
+
+                <div class="form-group">
+                    <label for="input-question">Ret spørgsmål</label>
+
+                    <div class="input-group">
+                            <textarea name="text" rows="3" cols="100" class="form-control question" id="input-question"
+                                      maxlength="500">{{quest.question}}</textarea>
+
+                        <div id="charNum"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12  col-md-4">
+
+            <!--<label for="image">Indsæt billede</label>
+
+            <img src="{{quest.logo}}" class="img-responsive">
+            &lt;!&ndash;<img class="thumbnail" src="{{img}}"/>&ndash;&gt;
+            <form>
+                <input class="btn" id="image" type="file"/>
+                <br/>
+                <button type="button" class="btn-success  image">Gem billede</button>
+                <button type="button" class="btn-danger" id="delete-logo">Slet billede</button>
+                &lt;!&ndash;<button type="submit">Upload</button>&ndash;&gt;
+            </form>-->
+            <form role="form">
+                <label for="image">Indsæt billede</label>
+                {{#if quest.logo}}
+                    <img src="{{quest.logo}}" class="img-responsive">
+                    <a class="btn btn-danger deleteImage">Delete</a>
+                {{else}}
+                    <P>du mangler at vælge</P>
+                    {{> upload_bootstrap fileTypes='image/*' formData=myFormDataImage callbacks=Image }}
+                    {{> dropzone formData=myFormDataImage callbacks=Image}}
+
+                {{/ if}}
+            </form>
+
+        </div>
+
+
+    </div>
+    <br/>
+    <hr/>
+    <!--Svar til spørgsmålene-->
+
+    <div class="row">
+        <div class="col-xs-12  col-md-2">
+
+            <form role="form">
+                <div class="form-group">
+
+                    <label for="input-spm1">Svar 1</label>
+
+                    <div class="input-group">
+
+                        <input type="text" class="form-control" id="input-spm1" value="{{quest.answer_0}}">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="col-xs-12  col-md-2">
+
+            <form role="form">
+                <div class="form-group">
+
+                    <label for="input-spm2">Svar 2</label>
+
+                    <div class="input-group">
+
+                        <input type="text" class="form-control" id="input-spm2" value="{{quest.answer_1}}">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="col-xs-12  col-md-2">
+
+            <form role="form">
+                <div class="form-group">
+
+                    <label for="input-spm3">Svar 3</label>
+
+                    <div class="input-group">
+
+                        <input type="text" class="form-control" id="input-spm3" value="{{quest.answer_2}}">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="col-xs-12  col-md-2">
+
+            <form role="form">
+                <div class="form-group">
+
+                    <label for="input-spm4">Svar 4</label>
+
+                    <div class="input-group">
+
+                        <input type="text" class="form-control" id="input-spm4" value="{{quest.answer_3}}">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="col-xs-12  col-md-2">
+
+            <form role="form">
+                <div class="form-group">
+
+                    <label for="input-correct">Korrekt svar</label>
+
+                    <div class="input-group">
+
+                        <!--ansver1-->
+
+                        <!--  <input type="text" class="form-control" id="input-correct" value="{{quest.correct}}">-->
+                        <select class="form-control" id="input-correct">
+                            <option value="{{quest.correct}}">{{quest.correct}}</option>
+                            <option value="ansver1">Svar 1</option>
+                            <option value="ansver2">Svar 2</option>
+                            <option value="ansver3">Svar 3</option>
+                            <option value="ansver4">Svar 4</option>
+
+                        </select>
+
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <!--</div>-->
+    <br/>
+    <hr/>
+    <div class="row">
+
+
+        <div class="col-xs-12  col-md-3">
+            <!--<VIS AUDIO FILEN HER>-->
+
+            <form role="form">
+                <label for="audio-wrong">Audio til forkert svar</label>
+                {{#if quest.audiowrong}}
+                    <audio controls src="{{quest.audiowrong}}"></audio>
+                    <a class="btn btn-danger deleteQuestionWrong">Delete</a>
+                {{else}}
+                    <P>du mangler at vælge</P>
+                    {{> upload_bootstrap fileTypes='audio/mp3' formData=myFormDatawrong callbacks=audiowrong }}
+                    {{> dropzone fileTypes='audio/mp3' formData=myFormDatawrong callbacks=audiowrong}}
+
+                {{/ if}}
+            </form>
+        </div>
+        <div class="col-xs-12  col-md-3">
+            <!--<VIS AUDIO FILEN HER>-->
+
+            <form role="form">
+                <label for="audio-question">Audio til spørgsmål</label>
+                {{#if quest.audioquestion}}
+                    <audio controls src="{{quest.audioquestion}}"></audio>
+                    <a class="btn btn-danger deleteQuestionAudio">Delete</a>
+
+                {{else}}
+                    <P>du mangler at vælge</P>
+                    {{> upload_bootstrap fileTypes='audio/mp3' formData=myFormDataQuestion callbacks=audioquestion }}
+                    {{> dropzone fileTypes='audio/mp3' formData=myFormDataQuestion callbacks=audioquestion}}
+                {{/ if}}
+
+
+
+
+
+                <!--<br/>
+                <input id="audio-question" type="file"/>
+                <br/>
+                <button type="submit" class="btn-success audio-question">Gem lydfil</button>
+                <button type="submit" class="btn-danger" id="audio-question-delete">Slet lydfil</button>-->
+                <!--<button type="submit">Upload</button>-->
+            </form>
+        </div>
+        <div class="col-xs-12  col-md-3">
+            <form role="form">
+                <div class="form-group">
+                    <label for="input-phone">Aktiver spørgsmål</label>
+
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="true">
+                            Marker her for at aktivere spørgsmål.
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="false">
+                            Marker her for a deaktivere spørgsmål.
+                        </label>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <div class="row">
+
+            <div class="col-xs-12 col-md-10">
+                <br/>
+                <br/>
+                <button type="button" data-dismiss="modal" class="btn btn-default cancel">Fortryd</button>
+                <button type="button" class="btn btn-success opret">Gem og luk</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</template>
+
+<template name="editquestion">
+    {{> editquestions}}
+</template>
+
+<template name="uploadedInfo">
+    <div class="documentList">
+        <ul class="list-inline">
+            {{#each this}}
+                <li class="documentItem">
+                    <a href="/upload/{{path}}"><img src="{{src}}"></a><br/>
+                    <label>{{ name }}</label> <br/>
+                    {{ size }} KB<br>
+                    {{#if _id}}
+                        <a class="btn btn-danger deleteUpload">Delete</a>
+                    {{/if}}
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</template>

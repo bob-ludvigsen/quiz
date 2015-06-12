@@ -4,10 +4,10 @@
     <div class="alert alert-success fade ">
         <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
         <h3>Yeah! That's correct. The right answer is {{thecorrect}} Well done.</h3>
-        <audio autoplay>
-            <source src="1902.mp3" type="audio/mpeg">
+      <!--  <audio id="correct" >
+           &lt;!&ndash; <source src="/correct/{{playCorrect}}" type="audio/mpeg">&ndash;&gt;
             Your browser does not support the audio element.
-        </audio>
+        </audio>-->
     </div>
     {{/if}}
 
@@ -16,10 +16,11 @@
         <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
         <h3> Noooh... That's wrong! The correct answer is {{thecorrect}}</h3>
 
-        <audio autoplay>
-            <source src="3958.mp3" type="audio/mpeg">
+       <!-- <audio id="false" >
+           &lt;!&ndash;<source src="{{playSound.audiowrong}}" type="audio/mpeg">&ndash;&gt;
+
             Your browser does not support the audio element.
-        </audio>
+        </audio>-->
 
     </div>
     {{/if}}
@@ -27,10 +28,11 @@
         <div class="alert alert-error fade ">
             <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
             <h3> Time's up!; The correct answer is:  {{thecorrect}}</h3>
-            <audio autoplay>
-                <source src="3958.mp3" type="audio/mpeg">
+           <!-- <audio id="time-up" >
+               &lt;!&ndash; <source src="{{playSound.audiowrong}}" type="audio/mpeg">&ndash;&gt;
+                &lt;!&ndash;<source src="/correct/right10.mp3" type="audio/mpeg">&ndash;&gt;
                 Your browser does not support the audio element.
-            </audio>
+            </audio>-->
 
         </div>
     {{/if}}

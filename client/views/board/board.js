@@ -1,35 +1,83 @@
 /**
  * Created by pfu on 04/06/14.
  */
-Template.board.rendered = function () {
+
+/*
 
 
-}
+ */
+Meteor.startup(function () {
+    Tracker.autorun(function () {
+
+        var gameId = Session.get("playgame");
+        var griddata = Gamedata.findOne({_id: gameId});
+
+        if (griddata) {
+
+            var player_1 = griddata.player1_id;
+            var player_2 = griddata.player2_id;
+            var namePlayer_1 = griddata.player1;
+            var namePlayer_2 = griddata.player2;
+            var scorep1 = griddata.scorep1;
+            var scorep2 = griddata.scorep2;
+            var finished = griddata.finished;
+            var foundBonusTiles = griddata.countbonus;
+
+        }
+        if (foundBonusTiles == 5 && finished == 0) {
+            Gamedata.update({_id: gameId}, {$set: {"finished": 1, "turn": 2}});
+            if (scorep1 > scorep2) {
+                // svnquiz er sat midlertidigt indtil hoved spil generatoren er implementeret
+                alert(namePlayer_1 + ' is the WINNER');
+                return Meteor.call('insertWinner', player_1, 'svnquiz');
+
+            }
+            else if (scorep2 > scorep1) {
+                alert(namePlayer_2 + ' is the WINNER');
+                return Meteor.call('insertWinner', player_2, 'svnquiz');
+
+            }
+            Router.go('boardInactive');
+        }
+
+    });
+});
+
 
 Template.board.helpers({
 
     cats: function () {
         //return Categories.find().fetch();
         var gameId = Session.get("playgame");
-
+        if(gameId){
         var griddata = Gamedata.findOne({_id: gameId});
+
         if (griddata) {
-var count = griddata.count;
-            var usedCats = griddata.catsUsed;
-//alert(usedCats);
+            var count = griddata.count;
+            var usedCats = [];
+            if (griddata.catsUsed != undefined) {
+                usedCats = griddata.catsUsed;
+            }
+            else {
+                usedCats = [];
+            }
+
+
         }
         var categories = Categories.find().fetch();
+        if (categories) {
+            var numOfCats = categories.length;
 
-        var numOfCats = categories.length;
+        }
         if (usedCats) {
             if (numOfCats === usedCats.length) {
+
                 Gamedata.update({_id: gameId}, {$set: {"catsUsed": []}});
             }
         }
 
         var TheCats = '';
         for (var i = 0; i < numOfCats; i++) {
-            //alert(usedCats)
             if (usedCats) {
                 if (usedCats.length === 0) {
                     TheCats += '<a id="cat" class="btn custom " href="' + categories[i].category + '">' + categories[i].category + '</a>';
@@ -52,6 +100,8 @@ var count = griddata.count;
         }
         return TheCats;
         // }, 4);
+
+        }
     },
     score: function () {
         var gameId = Session.get("playgame");
@@ -75,31 +125,15 @@ var count = griddata.count;
             //return the logged in user
             //console.log('count er ' + count + "  tur er " + whoosturn)
 
-            var foundBonusTiles = griddata.countbonus;
+            // autorun
 
-            if (foundBonusTiles >= 5) {
-                Gamedata.update({_id: gameId}, {$set: {"finished": 1, "turn": 2}});
-                if(scorep1>scorep2){
-                    // 01 er sat midlertidigt indtil hoved spil generatoren er implementeret
-
-                    Meteor.call('insertWinner', player_1, 'svnquiz' );
-                }
-                else if(scorep2>scorep1){
-                    Meteor.call('insertWinner', player_2, 'svnquiz' );
-                }
-
-                Router.go('boardInactive');
-            }
 
             if (count >= 5) {
-
                 if (loggedInUser === player_1 && whoosturn === 0) {
                     //skift fra spiller et til spiller to
                     Gamedata.update({_id: gameId}, {$set: {"turn": 1, "count": 0, "catsUsed": []}});
                     //send en mail til spiller 2
                     Meteor.call('mailChangeTurn', player_2);
-                    //alert('her mailer vi til spiller 2')
-
 
                 }
                 else if (loggedInUser === player_2 && whoosturn === 1) {
@@ -107,7 +141,6 @@ var count = griddata.count;
                     Gamedata.update({_id: gameId}, {$set: {"turn": 0, "count": 0, "catsUsed": []}});
                     //send en mail til spiller 1
                     Meteor.call('mailChangeTurn', player_1);
-                    //alert('her mailer vi til spiller 1');
 
                 }
             }
@@ -239,28 +272,46 @@ Template.board.events({
         var clickedElement = $(event.target).attr("href");
         Session.set('category', clickedElement);
         Session.set("show-my-modal", true);
-        Gamedata.update({_id: gameId}, {$push: {catsUsed: clickedElement}});
+        var now = new Date().getTime();
+
+        // Set et timestamp i db (update) for at være i stand til at lukke inaktive spil efter 21 dage
+        Gamedata.update({_id: gameId}, {$push: {catsUsed: clickedElement}, $set: {update: now}});
         //update the data in the session variable to update modal templates
         var cat = Session.get('category');
 
-        var number = Quizzes.find({category: cat}).count();
+        //hent alle aktive spørgsmål
+        var number = Quizzes.find({category: cat, $or: [{active: 'true'}, {active: true}]}).count();
+
+
         var randomIndex = Math.floor(Math.random() * number);
         Session.set('index', randomIndex);
 
+        Session.set('gamename', 'board');
+
         // denne session skal bruges så spm ikke bliver fornyet ved refresh af browser se evt. question.js
-        //Session.set('quizInScope', Quizzes.findOne({category: cat}, {skip: randomIndex, limit: 1}));
         Session.set('gotoquiz', true);
+
     },
 
     'click  .box': function (event) {
         // e.stopPropagation()
+
+
         var clickedElement = $(event.target).attr("id");
         var gameId = Session.get("playgame");
         var griddata = Gamedata.findOne({_id: gameId});
         var playerTurn = griddata.turn;
-        //alert(playerTurn)
+
         //enabler kategorierne
 
+
+        /* function play_sound() {
+         sound.play();
+         }
+
+         function stop_sound() {
+         sound.stop();
+         }*/
 
         //Gamedata.update({_id: gameId},{ $inc: { count: +1 } } );
         //set en session med værdien af det klikkede element sammenlign med bonus arrayen med de værdier der kan anvendes..
@@ -270,7 +321,7 @@ Template.board.events({
         if (playerTurn === 0) {
 
             if ($("#" + clickedElement).hasClass('blue is-disabled') || $("#" + clickedElement).hasClass('yellow is-disabled')) {
-                alert('er blå')
+                // alert('er blå')
                 //return false;
             }
             else {
@@ -284,7 +335,7 @@ Template.board.events({
 
 
             if ($("#" + clickedElement).hasClass('yellow') || $("#" + clickedElement).hasClass('blue')) {
-                alert('er gul')
+                //alert('er gul')
                 //return false;
             }
             else {
@@ -294,25 +345,9 @@ Template.board.events({
             $(".pull-left").removeClass("cat-is-disabled");
 
         }
-        //alert(Session.get("currentTile"))
-        // }
-        // else {
+
         Session.set("currentTile", clickedElement);
 
-
-        /* if (playerTurn === 0) {
-         $("#" + lastClickedElement).removeClass("blue is-disabled");
-         //$("#" + clickedElement).addClass("blue is-disabled");
-         Session.set("currentTile", clickedElement);
-         }
-         else if (playerTurn === 1) {
-
-         $("#" + lastClickedElement).removeClass("yellow is-disabled");
-         //$("#" + clickedElement).addClass("yellow is-disabled");
-         Session.set("currentTile", clickedElement);
-         }*/
-
-        //}
     },
     'click #login-dropdown-list': function (event) {
         if ($(".dropdown").hasClass("open")) {
@@ -331,3 +366,4 @@ Meteor.subscribe('quizzes');
 Meteor.subscribe('categories');
 Meteor.subscribe('gamedata');
 Meteor.subscribe("directory");
+Meteor.subscribe("singleplayer");

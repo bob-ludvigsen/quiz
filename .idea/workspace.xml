@@ -1,58 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/client/views/inviteplayer/invite_player.html" line="23" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/client/views/inviteplayer/invite_player.html" line="21" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8659d5-4c70-4466-9e02-78b832455b34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/board/boardInacitve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/application/layout.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/admin/edit_questions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/admin/edit_questions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/stylesheets/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/check/csscheckbox.png" afterPath="$PROJECT_DIR$/public/check/csscheckbox.png" />
+    <list default="true" id="7d8659d5-4c70-4466-9e02-78b832455b34" name="Default" comment="rotation mm tilfoejet">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/1902.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/3958.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/SoundsCrate-SciFi-PowerUp3.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/graphics/boya.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/levelOFF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/levelON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/nv3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/img/progressbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right1.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right10.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right2.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right3.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right4.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right5.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right6.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right7.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right8.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/correct/right9.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/graphics/tilbage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ATconfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/accounts_admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/accounts_admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/board/boardInactive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/templates/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/templates/buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/cordova-plugins" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/createUser/createUser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/createUser/createUser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/create_account_modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/create_account_modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/createquestion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/createquestion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/delete_account_modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/delete_account_modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/templates/dropzone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/templates/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/edit_question.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/edit_question.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/info_account_modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/info_account_modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/lib/jquery.fileupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/lib/jquery.iframe-transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/lib/vendor/jquery.ui.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/list_questions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/list_questions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/login/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/sites/login.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/login/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.deploy/mup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/platforms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/templates/queueItem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/templates/queueItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.deploy/settings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/application/simpleLayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/board/singleplayer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/board/singleplayer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/startup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/update_account_modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/update_account_modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/update_roles_modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/update_roles_modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/update_user_data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/admin/update_user_data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/templates/upload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/sites/upload.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/templates/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/uploadjquery/uploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/user_query.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets" afterPath="$PROJECT_DIR$/client/stylesheets" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/.finished-upgraders" afterPath="$PROJECT_DIR$/.meteor/.finished-upgraders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/admin/admin.html" afterPath="$PROJECT_DIR$/client/admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/admin/admin.js" afterPath="$PROJECT_DIR$/client/admin/admin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/admin/admin_layout.html" afterPath="$PROJECT_DIR$/client/admin/admin_layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/board/board.html" afterPath="$PROJECT_DIR$/client/views/board/board.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/board/board.js" afterPath="$PROJECT_DIR$/client/views/board/board.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.json" afterPath="$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/board/boardInacitve.js" afterPath="$PROJECT_DIR$/client/views/board/boardInacitve.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/feedback/feedback.html" afterPath="$PROJECT_DIR$/client/views/feedback/feedback.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/feedback/feedback.js" afterPath="$PROJECT_DIR$/client/views/feedback/feedback.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fixtures.js" afterPath="$PROJECT_DIR$/server/fixtures.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.html" afterPath="$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.js" afterPath="$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/sites/home.import.less" afterPath="$PROJECT_DIR$/client/stylesheets/sites/home.import.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/instructions/instructions.html" afterPath="$PROJECT_DIR$/client/views/instructions/instructions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/inviteplayer/invite_player.html" afterPath="$PROJECT_DIR$/client/views/inviteplayer/invite_player.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/inviteplayer/invite_player.js" afterPath="$PROJECT_DIR$/client/views/inviteplayer/invite_player.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/application/layout.html" afterPath="$PROJECT_DIR$/client/views/application/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/menu/menu.html" afterPath="$PROJECT_DIR$/client/views/menu/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/menu/menu.js" afterPath="$PROJECT_DIR$/client/views/menu/menu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/methods.js" afterPath="$PROJECT_DIR$/server/methods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/mystatus/my_status.html" afterPath="$PROJECT_DIR$/client/views/mystatus/my_status.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/mystatus/my_status.js" afterPath="$PROJECT_DIR$/client/views/mystatus/my_status.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/mygames/mygames.html" afterPath="$PROJECT_DIR$/client/views/mygames/mygames.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/mygames/mygames.js" afterPath="$PROJECT_DIR$/client/views/mygames/mygames.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/permissions.js" afterPath="$PROJECT_DIR$/lib/permissions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publications.js" afterPath="$PROJECT_DIR$/server/publications.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/quiz/question.html" afterPath="$PROJECT_DIR$/client/views/quiz/question.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/quiz/question.js" afterPath="$PROJECT_DIR$/client/views/quiz/question.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/quiz/quiz.html" afterPath="$PROJECT_DIR$/client/views/quiz/quiz.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/quiz/quiz.js" afterPath="$PROJECT_DIR$/client/views/quiz/quiz.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/quizes.js" afterPath="$PROJECT_DIR$/collections/quizes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/release" afterPath="$PROJECT_DIR$/.meteor/release" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.json" afterPath="$PROJECT_DIR$/smart.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/style.less" afterPath="$PROJECT_DIR$/client/stylesheets/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -78,40 +129,108 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="quiz" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/quiz/quiz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#665#1872#0" expanded="false" />
+                <element signature="n#!!block;n#timeUp#0" expanded="false" />
+                <element signature="e#5896#11225#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/feedback/feedback.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="singleplayer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/views/board/singleplayer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="28" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/quiz/quiz.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="invite_player.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/inviteplayer/invite_player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.import.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/stylesheets/sites/home.import.less">
+      <file leaf-file-name="mygames.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/mygames/mygames.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0657895" vertical-offset="9053" max-vertical-offset="12720">
-              <caret line="614" column="44" selection-start-line="614" selection-start-column="44" selection-end-line="614" selection-end-column="44" />
+            <state vertical-scroll-proportion="-18.125">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invite_player.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/views/inviteplayer/invite_player.html">
+      <file leaf-file-name="singleplayer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/board/singleplayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24291497" vertical-offset="300" max-vertical-offset="1620">
-              <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#9521#9704#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="board.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/board/board.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+              <folding>
+                <element signature="e#3076#3217#0" expanded="false" />
+                <element signature="e#8067#8601#0" expanded="false" />
+                <element signature="e#11670#11853#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mygames.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/mygames/mygames.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="45" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -130,52 +249,71 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/views/feedback/feedback.js" />
-        <option value="$PROJECT_DIR$/client/admin/admin.js" />
-        <option value="$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.less" />
-        <option value="$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.import.less" />
-        <option value="$PROJECT_DIR$/lib/ATconfig.js" />
-        <option value="$PROJECT_DIR$/client/admin/admin.html" />
-        <option value="$PROJECT_DIR$/client/admin/createquestion.html" />
-        <option value="$PROJECT_DIR$/client/admin/createquestion.js" />
-        <option value="$PROJECT_DIR$/client/admin/edit_question.html" />
-        <option value="$PROJECT_DIR$/client/admin/admin_layout.html" />
-        <option value="$PROJECT_DIR$/client/admin/accounts-admin.html" />
-        <option value="$PROJECT_DIR$/client/admin/accounts_admin.js" />
-        <option value="$PROJECT_DIR$/.meteor/packages" />
-        <option value="$PROJECT_DIR$/client/admin/accounts_admin.html" />
-        <option value="$PROJECT_DIR$/client/admin/startup.js" />
-        <option value="$PROJECT_DIR$/client/admin/list_questions.html" />
-        <option value="$PROJECT_DIR$/lib/user_query.js" />
-        <option value="$PROJECT_DIR$/client/admin/list_questions.js" />
-        <option value="$PROJECT_DIR$/client/views/mystatus/my_status.js" />
-        <option value="$PROJECT_DIR$/client/views/mystatus/my_status.html" />
-        <option value="$PROJECT_DIR$/client/views/mygames/mygames.html" />
-        <option value="$PROJECT_DIR$/client/views/inviteplayer/invite_player.html" />
-        <option value="$PROJECT_DIR$/client/views/board/board.html" />
-        <option value="$PROJECT_DIR$/client/views/board/boardInacitve.js" />
-        <option value="$PROJECT_DIR$/lib/router.js" />
-        <option value="$PROJECT_DIR$/client/views/quiz/quiz.js" />
-        <option value="$PROJECT_DIR$/client/admin/edit_question.js" />
-        <option value="$PROJECT_DIR$/client/views/board/board.js" />
-        <option value="$PROJECT_DIR$/server/methods.js" />
-        <option value="$PROJECT_DIR$/collections/quizes.js" />
-        <option value="$PROJECT_DIR$/server/publications.js" />
         <option value="$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.js" />
+        <option value="$PROJECT_DIR$/client/admin/accounts_admin.html" />
+        <option value="$PROJECT_DIR$/client/admin/update_roles_modal.html" />
+        <option value="$PROJECT_DIR$/client/admin/update_user_data.html" />
+        <option value="$PROJECT_DIR$/client/admin/info_account_modal.html" />
+        <option value="$PROJECT_DIR$/client/admin/delete_account_modal.html" />
+        <option value="$PROJECT_DIR$/client/admin/create_account_modal.html" />
+        <option value="$PROJECT_DIR$/client/admin/update_account_modal.html" />
+        <option value="$PROJECT_DIR$/client/admin/admin_layout.html" />
+        <option value="$PROJECT_DIR$/client/admin/list_questions.js" />
+        <option value="$PROJECT_DIR$/client/admin/createquestion.html" />
+        <option value="$PROJECT_DIR$/client/views/mystatus/my_status.js" />
+        <option value="$PROJECT_DIR$/client/views/menu/menu.html" />
+        <option value="$PROJECT_DIR$/client/views/login/login.js" />
+        <option value="$PROJECT_DIR$/client/views/login/login.html" />
+        <option value="$PROJECT_DIR$/client/views/board/boardInacitve.js" />
+        <option value="$PROJECT_DIR$/lib/user_query.js" />
+        <option value="$PROJECT_DIR$/client/admin/createquestion.js" />
+        <option value="$PROJECT_DIR$/client/admin/list_questions.html" />
+        <option value="$PROJECT_DIR$/client/views/inviteplayer/invite_player.html" />
+        <option value="$PROJECT_DIR$/client/views/instructions/instructions.html" />
         <option value="$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.html" />
-        <option value="$PROJECT_DIR$/client/views/inviteplayer/invite_player.js" />
-        <option value="$PROJECT_DIR$/client/views/application/layout.js" />
-        <option value="$PROJECT_DIR$/client/views/application/layout.html" />
+        <option value="$PROJECT_DIR$/client/main.html" />
+        <option value="$PROJECT_DIR$/client/stylesheets/style.less" />
+        <option value="$PROJECT_DIR$/client/uploadjquery/lib/css/jquery.fileupload.css" />
+        <option value="$PROJECT_DIR$/.meteor/packages" />
+        <option value="$PROJECT_DIR$/client/uploadjquery/templates/upload.html" />
+        <option value="$PROJECT_DIR$/client/uploadjquery/templates/buttons.html" />
+        <option value="$PROJECT_DIR$/client/init.js" />
+        <option value="$PROJECT_DIR$/lib/router.js" />
+        <option value="$PROJECT_DIR$/client/stylesheets/sites/upload.import.less" />
+        <option value="$PROJECT_DIR$/client/uploadjquery/lib/jquery.fileupload.js" />
+        <option value="$PROJECT_DIR$/client/uploadjquery/templates/dropzone.js" />
+        <option value="$PROJECT_DIR$/client/admin/edit_question.html" />
+        <option value="$PROJECT_DIR$/client/admin/edit_question.js" />
+        <option value="$PROJECT_DIR$/client/views/quiz/quiz.html" />
+        <option value="$PROJECT_DIR$/client/views/feedback/feedback.html" />
+        <option value="$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.import.less" />
+        <option value="$PROJECT_DIR$/.deploy/mup.json" />
         <option value="$PROJECT_DIR$/client/stylesheets/sites/home.import.less" />
+        <option value="$PROJECT_DIR$/client/views/inviteplayer/invite_player.js" />
+        <option value="$PROJECT_DIR$/server/methods.js" />
+        <option value="$PROJECT_DIR$/server/publications.js" />
+        <option value="$PROJECT_DIR$/collections/quizes.js" />
+        <option value="$PROJECT_DIR$/client/views/board/singleplayer.html" />
+        <option value="$PROJECT_DIR$/client/views/mygames/mygames.js" />
+        <option value="$PROJECT_DIR$/client/views/board/singleplayer.js" />
+        <option value="$PROJECT_DIR$/client/views/feedback/feedback.js" />
+        <option value="$PROJECT_DIR$/client/views/quiz/quiz.js" />
+        <option value="$PROJECT_DIR$/client/views/board/board.js" />
+        <option value="$PROJECT_DIR$/client/views/mygames/mygames.html" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="869" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -222,6 +360,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,6 +389,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -269,6 +436,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygames" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,42 +505,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".deploy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -340,9 +515,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/dropspot/packages/meteor-nodemailer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../upload" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
@@ -355,16 +530,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/admin" />
       <recent name="$PROJECT_DIR$/client/views/login" />
       <recent name="$PROJECT_DIR$/public/fonts" />
       <recent name="$PROJECT_DIR$/public/graphics" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/stylesheets" />
+      <recent name="$PROJECT_DIR$/client/uploadjquery" />
+      <recent name="$PROJECT_DIR$/public/correct" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/check" />
-      <recent name="$PROJECT_DIR$/public/fonts" />
-      <recent name="$PROJECT_DIR$/public/graphics" />
-      <recent name="$PROJECT_DIR$/client/stylesheets/sites" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.quiz.js">
@@ -375,21 +551,14 @@
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -408,6 +577,7 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
@@ -432,30 +602,38 @@
       <option name="number" value="Default" />
       <updated>1400834492259</updated>
     </task>
+    <task id="LOCAL-00001" summary="rotation mm tilfoejet">
+      <created>1418119841668</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1418119841668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="869" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2618742" sideWeight="0.49682876" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1703125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1698379" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18534179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23467231" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29308325" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2640306" sideWeight="0.50317127" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -473,9 +651,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18534179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -490,386 +668,389 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
+    <MESSAGE value="rotation mm tilfoejet" />
+    <option name="LAST_COMMIT_MESSAGE" value="rotation mm tilfoejet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/views/mygames/mygames.js">
+    <entry file="file://$PROJECT_DIR$/client/views/instructions/instructions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1230">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.20689656">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/menu/menu.js">
+    <entry file="file://$PROJECT_DIR$/client/admin/list_questions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state vertical-scroll-proportion="1.0876898">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/simpleLayout.html">
+    <entry file="file://$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <caret line="16" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/login/login.js">
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-sb-admin-1.0.2/font-awesome/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/login/login.html">
+    <entry file="file://$PROJECT_DIR$/lib/ATconfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4814815" vertical-offset="210" max-vertical-offset="615">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state vertical-scroll-proportion="3.2333875">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/menu/menu.html">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="495">
-          <caret line="6" column="10" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.34330985">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/quiz/question.html">
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/templates/queueItem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5901235" vertical-offset="61" max-vertical-offset="1080">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.mixins.import.less">
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/templates/buttons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="14.146667" vertical-offset="1061" max-vertical-offset="16725">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/lib/jquery.fileupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4376013">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/sites/upload.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9471831">
+          <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/templates/dropzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/templates/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/templates/dropzone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22776572">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/uploadjquery/uploader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/feedback/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="19" selection-start-line="18" selection-start-column="7" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.import.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8636364" vertical-offset="12490" max-vertical-offset="12960">
-          <caret line="858" column="28" selection-start-line="858" selection-start-column="28" selection-end-line="858" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/vendor/custom.bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325527" vertical-offset="25208" max-vertical-offset="89550">
-          <caret line="1690" column="28" selection-start-line="1690" selection-start-column="12" selection-end-line="1690" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/createquestion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0997963" vertical-offset="0" max-vertical-offset="840">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/createquestion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.22509961" vertical-offset="248" max-vertical-offset="1470">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/admin_layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.8" vertical-offset="0" max-vertical-offset="360">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/admin_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.610998" vertical-offset="0" max-vertical-offset="491">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/list_questions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="735">
-          <caret line="2" column="112" selection-start-line="2" selection-start-column="112" selection-end-line="2" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/accounts_admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1155">
-          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/quiz/question.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14563107" vertical-offset="0" max-vertical-offset="515">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/accounts_admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42769858" vertical-offset="0" max-vertical-offset="870">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17475729" vertical-offset="0" max-vertical-offset="515">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/edit_question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8191057" vertical-offset="3107" max-vertical-offset="3900">
-          <caret line="234" column="61" selection-start-line="234" selection-start-column="61" selection-end-line="234" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/mygames/mygames.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="915">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/board/boardInactive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11585366" vertical-offset="3" max-vertical-offset="750">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/board/boardInacitve.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="3270">
-          <caret line="197" column="9" selection-start-line="197" selection-start-column="9" selection-end-line="197" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/user_query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1918604" vertical-offset="0" max-vertical-offset="765">
-          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/feedback/feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19512194" vertical-offset="129" max-vertical-offset="645">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/feedback/feedback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6976744" vertical-offset="0" max-vertical-offset="1725">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/quiz/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7344961" vertical-offset="1900" max-vertical-offset="2565">
-          <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/board/board.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20731707" vertical-offset="273" max-vertical-offset="765">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/mystatus/my_status.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37790698" vertical-offset="0" max-vertical-offset="2685">
-          <caret line="13" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="173" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/mystatus/my_status.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1590">
-          <caret line="95" column="88" selection-start-line="95" selection-start-column="82" selection-end-line="95" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ATconfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1337209" vertical-offset="894" max-vertical-offset="2085">
-          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/permissions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7616279" vertical-offset="954" max-vertical-offset="1470">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5872092" vertical-offset="0" max-vertical-offset="2415">
-          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/quizes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25" vertical-offset="249" max-vertical-offset="765">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/startup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23255815" vertical-offset="0" max-vertical-offset="516">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/list_questions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1744186" vertical-offset="0" max-vertical-offset="915">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2106" max-vertical-offset="3105">
-          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publications.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="24" column="86" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/board/board.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4296" max-vertical-offset="5085">
-          <caret line="331" column="29" selection-start-line="331" selection-start-column="29" selection-end-line="331" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="-9.489796">
+          <caret line="215" column="26" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.deploy/mup.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125" vertical-offset="45" max-vertical-offset="735">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/edit_question.js">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/sites/home.import.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13320464" vertical-offset="591" max-vertical-offset="2535">
-          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-          <folding />
+        <state vertical-scroll-proportion="0.8221344">
+          <caret line="492" column="15" selection-start-line="492" selection-start-column="15" selection-end-line="492" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.js">
+    <entry file="file://$PROJECT_DIR$/client/admin/createquestion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6660232" vertical-offset="0" max-vertical-offset="780">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/hallOfFame/hall_of_fame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7817048" vertical-offset="374" max-vertical-offset="960">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="0.3315412">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/createquestion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/edit_question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="254" column="66" selection-start-line="254" selection-start-column="61" selection-end-line="254" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/edit_question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="252" column="8" selection-start-line="252" selection-start-column="8" selection-end-line="252" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/user_query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48453608">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.234676">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
+        <state vertical-scroll-proportion="0.48214287">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10273973">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/menu/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/application/simpleLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/application/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/layout.html">
+    <entry file="file://$PROJECT_DIR$/client/views/board/boardInacitve.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.091093116" vertical-offset="0" max-vertical-offset="494">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state vertical-scroll-proportion="-4.1751313">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/permissions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07705479">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/quizes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20547946">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4308797">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/board/board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13392857">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5650685">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/quiz/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.13508442">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/quiz/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28253424">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/mygames/mygames.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="45" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/inviteplayer/invite_player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/sites/home.import.less">
+    <entry file="file://$PROJECT_DIR$/client/views/board/board.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0657895" vertical-offset="9053" max-vertical-offset="12720">
-          <caret line="614" column="44" selection-start-line="614" selection-start-column="44" selection-end-line="614" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="e#3076#3217#0" expanded="false" />
+            <element signature="e#8067#8601#0" expanded="false" />
+            <element signature="e#11670#11853#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/mygames/mygames.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.125">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/inviteplayer/invite_player.html">
+    <entry file="file://$PROJECT_DIR$/client/views/board/singleplayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24291497" vertical-offset="300" max-vertical-offset="1620">
-          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#9521#9704#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/quiz/quiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/feedback/feedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/quiz/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#665#1872#0" expanded="false" />
+            <element signature="n#!!block;n#timeUp#0" expanded="false" />
+            <element signature="e#5896#11225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/board/singleplayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="28" />
           <folding />
         </state>
       </provider>

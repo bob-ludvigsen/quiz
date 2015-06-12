@@ -1,12 +1,10 @@
 <template name="inviteplayer">
     <div class="fade-in one">
-        <div class="row">
-            <div class="col-md-12 blueheader">
-                <div class="row">
-
-                    <img src="graphics/SVNQuizLogo192.png" class="img-responsive pull-right" alt="Responsive image">
-                </div>
-
+        <div class="col-md-12 blueheader">
+            <div class="row">
+                <img src="graphics/SVNQuizLogo192.png" class="img-responsive pull-right" alt="Responsive image">
+            </div>
+            <div class="row">
                 <div class="col-xs-12 col-md-4 white-text">
                     <h3 class="text-center">Invite a player</h3>
 
@@ -25,6 +23,8 @@
                         <h3>You must be logged in to invite </h3>
                     {{/if}}
                 </div>
+
+
                 <div class="col-xs-12 col-md-4 white-text">
                     <h3 class="text-center">You have invited: </h3>
 
@@ -38,9 +38,8 @@
                     {{else}}
                         <h3>You must be logged in to view </h3>
                     {{/if}}
-
-
                 </div>
+
 
                 <div class="col-xs-12 col-md-4 white-text">
                     <h3 class="text-center">You have been invited by:</h3>
@@ -58,40 +57,37 @@
                         <h3>You must be logged in to accept </h3>
                     {{/if}}
                 </div>
+            </div>
+            <br/><br/><br/><br/>
 
-                <br/><br/><br/><br/>
-
-                <div class="row">
-
-                    <div class="col-xs12 col-md-12 text-center"><a href="{{pathFor 'menu'}}"
-                                                                   class="btn btn-oldstyle" role="button"><H2>
-                        Return to menu</H2></a>
-                        <br/><br/>
-                    </div>
+            <div class="row">
+                <div class="col-xs12 col-md-12 text-center"><a href="{{pathFor 'menu'}}"
+                                                               class="btn btn-oldstyle" role="button"><H2>
+                    Return to menu</H2></a>
+                    <br/><br/>
                 </div>
-
-
             </div>
 
 
-
         </div>
+
 
     </div>
 </template>
 
 
-
-
 <template name="userList">
-    <li><a href="#" class="pickplayer white-text">{{username}}</a></li>
+    <li>
+        <a href="#" class="pickplayer white-text">{{username}}</a>
+    </li>
 </template>
 
 <template name="invitedlist">
     <!--dem jeg har inviteret-->
     <li>
 
-        <a href="#" class="deleteinvitation white-text">{{player2}}</a></li>
+        <a href="#" class="deleteinvitation white-text">{{player2}}</a>
+    </li>
 
 </template>
 

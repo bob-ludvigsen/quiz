@@ -1,0 +1,195 @@
+<template name="updateUserData">
+    <div id="updateuserdata" class="modal fade modalheight" tabindex="-1" data-width="760" style="display:none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                {{> updateUserDataModalInner}}
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="updateUserDataModalInner">
+    <div class="header">
+        <h4>Rediger bruger profil</h4>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+                    <div class="form-group">
+
+                        <label for="input-firmanavn">Firmanavn</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-firmanavn" placeholder="Firmanavn">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+                    <div class="form-group">
+
+                        <label for="input-cvrNr">Cvr.nr</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-cvrNr" placeholder="Indtast cvr nummer">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+
+                    <div class="form-group">
+
+                        <label for="input-fornavn">Fornavn</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-fornavn" placeholder="Indtast fornavne">
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <form role="form">
+                    <div class="form-group">
+
+                        <label for="input-efternavn">Efternavn</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-efternavn" placeholder="Indtast efternavn">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+
+                    <div class="form-group">
+
+                        <label for="input-adress">Adresse</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-adress" placeholder="Indtast adresse">
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+
+                    <div class="form-group">
+
+                        <label for="input-postalcode">Postnummer</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-postalcode" placeholder="Indtast postnummer">
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+                    <div class="form-group">
+
+                        <label for="input-city">By</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-city" placeholder="Indtast by">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+
+                    <div class="form-group">
+
+                        <label for="input-invoice">Email til fakturering</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-invoice" placeholder="Indtast Email til fakturering">
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+                    <div class="form-group">
+
+                        <label for="input-efternavn">ikke defineret</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-ejdef" placeholder="ikke defineret">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <form role="form">
+
+                    <div class="form-group">
+
+                        <label for="input-username">ikke defineret</label>
+
+                        <div class="input-group">
+
+                            <input type="text" class="form-control" id="input-username" placeholder="ikke defineret">
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-info">Fortryd</button>
+        <button type="button" data-dismiss="modal" class="btn btn-success">Gem og fortsæt</button>
+        <button type="button" class="btn btn-danger">Gem og luk</button>
+    </div>
+</template>

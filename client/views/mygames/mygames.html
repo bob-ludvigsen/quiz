@@ -9,39 +9,40 @@
 
                 <div class="row">
 
-    <div class="col-xs-6 col-md-6 white-text">
-        <h3 >Your active games:</h3>
-        {{#if currentUser}}
-        <ul class="transparant">
-            {{#each myactivegames}}
-            {{#unless myself _id}}
-            {{> mygameslist}}
-            {{/unless}}
-            {{/each}}
-        </ul>
-            {{else}}
-            <h3>You must be logged in to view </h3>
-        {{/if}}
-    </div>
-        <div class="col-xs-12 col-md-6 white-text">
-            <h3 >Play in single player mode.</h3>
-            <p>This function is under development!!</p>
-            <!--<div class="col-xs12 col-md-6"><a href="{{pathFor 'singleplayer'}}" >Single player</a></div>-->
-        </div>
-        </div>
-        <br/><br/><br/><br/>
+                    <div class="col-xs-6 col-md-6 white-text">
+                        <h3>Your active games:</h3>
+                        {{#if currentUser}}
+                            <ul class="transparant">
+                                {{#each myactivegames}}
+                                    {{#unless myself _id}}
+                                        {{> mygameslist}}
+                                    {{/unless}}
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            <h3>You must be logged in to view </h3>
+                        {{/if}}
+                    </div>
+                    <div class="col-xs-12 col-md-6 white-text">
+                        <h3>Play in single player mode.</h3>
 
-        <div class="row">
+                        <p>This function is under development!!</p>
+                    <div class="col-xs12 col-md-6"><a class="singleplayer" href="{{pathFor 'singleplayer'}}" >Single player</a></div>
+                    </div>
+                </div>
+                <br/><br/><br/><br/>
 
-    <div class="col-xs12 col-md-12 text-center "><a href="{{pathFor 'menu'}}" class="btn btn-oldstyle" role="button"> <H2>Return to menu</H2></a>
-        <br/><br/>
-    </div>
-        </div>
-    </div>
+                <div class="row">
+
+                    <div class="col-xs12 col-md-12 text-center "><a href="{{pathFor 'menu'}}" class="btn btn-oldstyle"
+                                                                    role="button"><H2>Return to menu</H2></a>
+                        <br/><br/>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 </template>
-
 
 
 <template name="mygameslist">
@@ -50,7 +51,6 @@
         <span class="currentplayer">Playing now : {{curplayer}}</span>
 
     </li>
-
 
 
 </template>

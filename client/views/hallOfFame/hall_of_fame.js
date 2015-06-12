@@ -5,21 +5,21 @@
 Template.halloffame.helpers({
 
     myStats: function () {
-        var hallOfFameList = Meteor.users.find({},{sort: {svnquiz: -1}, limit:25}).fetch();
+        var hallOfFameList = Meteor.users.find({},{sort: {svnquiz: -1}, limit:10}).fetch();
         return hallOfFameList;
     }
 });
 
 Template.halloffame.events({
     'click .white-text': function (event) {
-        Meteor.call('insertWinner', 'YrBYomgqmB7iymQYP', 'svnquiz');
+        //Meteor.call('insertWinner', 'YrBYomgqmB7iymQYP', 'svnquiz');
     }
 });
 
 Template.halloffamelist.helpers({
 
     myStatus: function () {
-        var hallOfFameList = Meteor.users.findOne({_id:this._id}, {sort: {svnquiz: -1}, limit: 25});
+        var hallOfFameList = Meteor.users.findOne({_id:this._id}, {sort: {svnquiz: -1}, limit: 10});
 
         var wins = hallOfFameList.svnquiz;
 
@@ -39,7 +39,7 @@ Template.halloffamelist.helpers({
 
             return ' Captain';
         }
-        else if (wins >= 40 && wins < 50) {
+        else if (wins >= 40) {
 
             return ' Admiral';
         }

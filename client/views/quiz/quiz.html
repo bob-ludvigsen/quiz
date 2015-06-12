@@ -1,10 +1,10 @@
 <Template name="quiz">
 
 
-    <div class="row-fluid"> {{> feedback}}</div>
+    <div class="row-fluid"> {{> feedback}} </div>
 
     <div class="row fade-in one">
-        <div class="col-xs-10 col-md-10 quiz">
+        <div class="col-xs-8 col-md-8 quiz">
             <form class="form-horizontal">
                 <h3>
                     {{quizes.question}}
@@ -16,7 +16,6 @@
                                value="ansver1"/>
                         <label for="radio1" class="css-label radGroup1">{{quizes.answer_0}}</label>
                     </div>
-
                     <div>
                         <input type="radio" id="radio2" class="css-checkbox" name="answers"
                                value="ansver2"/>
@@ -45,11 +44,23 @@
 
                     </div>
                 </form>
-
-
             </form>
-        </div>
 
+        </div>
+        <audio autobuffer="autobuffer" id="question" >
+            {{playSound}}
+
+            <!--<source src="{{quizes.audioquestion}}" >-->
+
+           <!-- <source src="/1902.mp3" type="audio/mpeg">-->
+
+            Your browser does not support the audio element.
+        </audio>
+        <div class="col-xs-4 col-md-4">
+
+            <img src="{{quizes.logo}}">
+
+        </div>
 
     </div>
 
