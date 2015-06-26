@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/../franskordliste/.deploy/mup.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/contact.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/home.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/layout.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/layout.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/main.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/nav.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/search.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/client/views/search.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/collections/collections.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/lib/router.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/lib/word_query.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/server/fixtures.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../franskordliste/server/publications.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client/views/board/board.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client/views/quiz/quiz.js" charset="UTF-8" />
   </component>
 </project>
-
